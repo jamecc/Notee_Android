@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@layout/header_toolbar_gradient" >
+
+        <Button
+            android:id="@+id/btn_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/h_button_height"
+            android:layout_marginBottom="@dimen/di_toolbar_btn_margin"
+            android:layout_marginTop="@dimen/di_toolbar_btn_margin"
+            android:text="@string/str_return"
+            android:textSize="@dimen/di_button_font_size" />
+
+        <Button
+            android:id="@+id/btn_finish"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/h_button_height"
+            android:layout_marginTop="@dimen/di_toolbar_btn_margin"
+            android:text="@string/str_finish"
+            android:textSize="@dimen/di_button_font_size" />
+
+        <Button
+            android:id="@+id/btn_pic"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/h_button_height"
+            android:layout_marginTop="@dimen/di_toolbar_btn_margin"
+            android:text="@string/str_pic"
+            android:textSize="@dimen/di_button_font_size" />
+
+        <Button
+            android:id="@+id/btn_camera"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/h_button_height"
+            android:layout_marginTop="@dimen/di_toolbar_btn_margin"
+            android:text="@string/str_camera"
+            android:textSize="@dimen/di_button_font_size" />
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent" >
+
+            <Button
+                android:id="@+id/btn_del"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/h_button_height"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="@dimen/di_toolbar_btn_margin"
+                android:text="@string/str_del"
+                android:textSize="@dimen/di_button_font_size" />
+            
+            <Button
+                android:id="@+id/btn_edit"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/h_button_height"
+                android:layout_marginTop="@dimen/di_toolbar_btn_margin"
+                android:layout_toLeftOf="@id/btn_del"
+                android:text="@string/str_edit"
+                android:textSize="@dimen/di_button_font_size" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/edit_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/str_title" >
+
+        <requestFocus />
+    </EditText>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <RadioButton
+            android:id="@+id/radio_btn_note"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/str_note" />
+
+        <RadioButton
+            android:id="@+id/radio_btn_schedule"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="@string/str_schedule" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <EditText
+            android:id="@+id/edit_date"
+            android:layout_width="@dimen/dim_date_width"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="@string/str_date"
+            android:inputType="date" />
+
+        <EditText
+            android:id="@+id/edit_time"
+            android:layout_width="@dimen/dim_time_width"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="@string/str_time"
+            android:inputType="time" />
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/edit_content"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:ems="10"
+        android:gravity="top"
+        android:inputType="textMultiLine" />
+
+</LinearLayout>

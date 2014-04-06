@@ -1,0 +1,35 @@
+<resources>
+    <string name="str_cancel">Cancel</string>
+    <string name="str_return">Return</string>
+    <string name="str_finish">Finish</string>
+    <string name="str_edit">Edit</string>
+    <string name="str_del">Del</string>
+    <string name="str_pic">Pic</string>
+    <string name="str_camera">Camera</string>
+    <string name="str_note">Note</string>
+    <string name="str_schedule">Schedule</string>
+    <string name="str_title">Title</string>
+    <string name="str_user_name">User Name</string>
+    <string name="str_email">E-mail</string>
+    <string name="str_pwd">Password</string>
+    <string name="str_confirm_pwd">Confirm Password</string>
+    <string name="str_auto_login">Auto login</string>
+    <string name="str_register">Register</string>
+    <string name="str_login">Login</string>
+    <string name="str_or">or</string>
+    <string name="str_forgot_pwd">Forgot password?</string>
+    <string name="str_submit">Submit</string>
+    <string name="str_sign_in">Sign in</string>
+    <string name="str_date">Date</string>
+    <string name="str_time">Time</string>
+    <string name="str_new">New</string>
+    <string name="str_search">Search</string>
+    <string name="str_options">Options</string>
+    <string name="str_refresh">Refresh</string>
+    <string name="str_am">AM</string>
+    <string name="str_pm">PM</string>
+    <string name="str_exit">Exit</string>
+    <string name="str_logout">Logout</string>
+
+
+</resources>

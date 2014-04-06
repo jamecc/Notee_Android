@@ -1,0 +1,19 @@
+<resources>
+
+    <string name="app_name">Notee</string>
+    <string name="str_search_text">Search Text</string>
+    <string name="str_exist_user_name">The user name is in use</string>
+    <string name="str_exist_email">The email is in use</string>
+    <string name="str_error_no_user_name">The user name doesn\'t exist.</string>
+    <string name="str_error_no_email">The user name isn\'t with E-mail.</string>
+    <string name="str_modify_pwd_info_link">The link of modify password is sent to \'%s\'</string>
+    <string name="str_label_forgot_pwd">Forgot password?</string>
+    <string name="str_error_login_token">Login token is wrong.</string>
+    <string name="str_error_note_id">Note id cannot be found.</string>
+    <string name="str_error_permission_get_note">No permission to get the note.</string>
+    <string name="str_error_no_permission">No permission.</string>
+    <string name="str_error_wrong_network">Network is wrong.</string>
+    <string name="str_error_empty_title">Title is empty.</string>
+    <string name="str_error_no_network">No internet connection.</string>
+
+</resources>

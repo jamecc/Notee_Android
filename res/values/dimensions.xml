@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="dim_date_width">200dp</dimen>
+    <dimen name="dim_time_width">150dp</dimen>
+    <dimen name="di_button_font_size">5pt</dimen>
+    <dimen name="di_button_padding">2px</dimen>
+    <dimen name="h_button_height">34dp</dimen>
+    <dimen name="di_toolbar_btn_margin">8px</dimen>
+    <dimen name="di_link_text_margin">5px</dimen>
+    
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="clr_readonly_text">#333</color>
+    <color name="clr_normal_text">#555</color>
+     <color name="clr_note_title">#555</color>
+    <color name="clr_note_sub_title">#999</color>
+    <color name="clr_bkgd_toolbar">#99DDDD</color>
+    <color name="clr_view_sub_title">#899</color>
+    <color name="clr_head_gradient_start">#E0E5E5</color>
+    <color name="clr_head_gradient_center">#F6F6F6</color>
+    <color name="clr_head_gradient_end">#C0C0C0</color>
+    <color name="clr_cmd_view_text">#05F</color>
+    
+</resources>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            style="@style/LoginFormContainer"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:background="@layout/header_gradient"
+            android:orientation="vertical"
+            android:padding="10dip" >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/ic_launcher" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Notee 1.0"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="© 2013 Coode Software" />
+
+            <Button
+                android:id="@+id/btn_notee_link"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="5dp"
+                android:text="http://notee.coodesoft.com"
+                android:textColor="@color/clr_cmd_view_text" />
+
+        </LinearLayout>

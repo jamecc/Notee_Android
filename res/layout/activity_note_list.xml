@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@layout/header_toolbar_gradient" >
+
+        <Button
+            android:id="@+id/btn_refresh"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/h_button_height"
+            android:layout_marginBottom="@dimen/di_toolbar_btn_margin"
+            android:layout_marginTop="@dimen/di_toolbar_btn_margin"
+            android:height="@dimen/h_button_height"
+            android:text="@string/str_refresh"
+            android:textSize="@dimen/di_button_font_size" />
+
+        <Button
+            android:id="@+id/btn_new"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/h_button_height"
+            android:layout_marginBottom="@dimen/di_toolbar_btn_margin"
+            android:layout_marginTop="@dimen/di_toolbar_btn_margin"
+            android:text="@string/str_new"
+            android:textSize="@dimen/di_button_font_size" />
+
+        <EditText
+            android:id="@+id/edit_search_text"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/h_button_height"
+            android:layout_marginTop="@dimen/di_toolbar_btn_margin"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="@string/str_search_text"
+            android:textSize="@dimen/di_button_font_size" />
+
+        <Button
+            android:id="@+id/btn_search"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/h_button_height"
+            android:layout_marginTop="@dimen/di_toolbar_btn_margin"
+            android:text="@string/str_search"
+            android:textSize="@dimen/di_button_font_size" />
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/list_view_notes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </ListView>
+
+</LinearLayout>
